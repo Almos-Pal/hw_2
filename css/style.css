@@ -1,0 +1,96 @@
+.feladat1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hex-code{
+    text-align: center;
+    font-size: 2rem;
+    color: #000;
+    font-weight: bold;
+    
+}
+#genNew{
+    border: none;
+    border-radius: 2rem;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    margin-bottom: 1rem;
+    background: #e0e0e0;
+}
+.vh-100{
+    width: 100vh;
+    height: auto;
+}
+
+.gomb{
+    background: #00ff00;
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    
+    padding: 5px 10px;
+}
+.torol{
+    background: #ff0000;
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 5px 10px;
+   
+}
+.torolall{
+    background: #e0e0e0;
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 2rem;
+    
+    padding: 5px 10px;
+   
+}
+.Text{
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 5px;
+   background: #e0e0e0;
+}
+label{
+    display: inline-block;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+table tr{
+    font-size: 1.1rem;
+    width: 10rem;
+}
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+table tr:hover{
+    background-color: #e0e0e0;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}

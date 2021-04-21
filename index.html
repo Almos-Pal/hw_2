@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <div class="feladat1 ">
+        <span id="hex-code">#00000</span>
+        <button id="genNew" onclick="NewColor()">Új szín generálása</button>
+      <span id="color"></span>
+      <div>
+         
+          <div class="feladat2">
+            <div class="column">
+            <label  id="szoveg" for="Text">Input szöveg</label>
+            <input type="text" class="Text" id="Text" value="Minta szöveg">
+           </div> 
+            <div>
+              <button onclick="hozzaadas()" class="gomb" id="hozzaad">Hozzáad</button>
+              <button onclick="torles()" class="torol" id="torol">Töröl</button>
+              <button onclick="torlesAll()" class="torolall" id="torolall">Összes törlése</button>
+            </div>
+            
+          </div>
+          <table id="table">
+            <tbody>
+            
+            </tbody>
+          </table>
+      </div>
+    </div>
+
+    <script src="./js/index.js"> </script>
+</body>
+</html>
